@@ -1,1 +1,92 @@
-# CSA0914-192411144-Assignment1
+# CSA09-192411144-Assignment1
+
+## Campus Smart-Parking System
+
+### Student Details
+- **Name:** Bhargavi N
+- **Register Number:** 192411144
+- **Course:** B.Tech – Computer Science and Engineering
+- **Subject:** Programming in Java
+- **Java Version:** 26.0.2.1
+
+## Project Description
+
+This assignment implements and analyses a Campus Smart-Parking System using Java and Object-Oriented Programming concepts.
+
+The system demonstrates vehicle management, parking slot allocation, fee calculation, inheritance, polymorphism, abstraction, encapsulation and testing.
+
+## Tasks and Results
+
+| Task | Description | Result |
+|---|---|---|
+| Task 01 | Problem understanding and object identification | Completed |
+| Task 02 | Data representation and Java data types | Completed |
+| Task 03 | Control statements and parking slot allocation | Completed |
+| Task 04 | Classes, objects and constructors | Completed |
+| Task 05 | Static members and object life cycle | Completed |
+| Task 06 | Inheritance and constructor chaining | Completed |
+| Task 07 | Method overriding and object methods | Completed |
+| Task 08 | Compile-time and runtime polymorphism | Completed |
+| Task 09 | Abstraction and interfaces | Completed |
+| Task 10 | Packages, access modifiers and encapsulation | Completed |
+| Task 11 | Complete parking system implementation and testing | Completed |
+| Task 12 | Day-4 challenge: new vehicles, visitor passes and multiple floors | Completed |
+
+## Folder Structure
+
+- Task01 – Problem analysis
+- Task02 – Data representation
+- Task03 – Control logic
+- Task04 – Classes and constructors
+- Task05 – Static members
+- Task06 – Inheritance
+- Task07 – Method overriding
+- Task08 – Polymorphism
+- Task09 – Abstraction and interfaces
+- Task10 – Encapsulation
+- Task11 – Complete system implementation
+- Task12 – Extended parking system
+
+Each task folder contains its corresponding assignment files.
+
+## Compilation and Execution
+
+Open Command Prompt and navigate to the required task folder.
+
+Example for Task12:
+
+```cmd
+cd Task12
+javac ParkingSystem.java
+java ParkingSystem
+```
+
+For the other Java programs, use the corresponding source filename:
+
+| Task | Java File |
+|---|---|
+| Task03 | ParkingFacility.java |
+| Task04 | Vehicle.java |
+| Task05 | ParkingTicket.java |
+| Task06 | Vehicle.java |
+| Task07 | Vehicle.java |
+| Task08 | ParkingSystem.java |
+| Task09 | ParkingSystem.java |
+| Task10 | ParkingSystem.java |
+| Task11 | ParkingSystem.java |
+| Task12 | ParkingSystem.java |
+
+## Task12 Extended Features
+
+The final extension demonstrates:
+
+- Electric bikes with a flat parking fee.
+- Delivery vans charged double the car rate between 9 AM and 5 PM.
+- One-day visitor pass validation.
+- Five parking floors with unequal slot capacities.
+
+## Conclusion
+
+All 12 assignment tasks have been completed. The programs were compiled and executed, and the results were verified.
+
+**GitHub Repository:** [https://github.com/bhargavi660/CSA0914-192411144-Assignment1.git]
