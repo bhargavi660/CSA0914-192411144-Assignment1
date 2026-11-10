@@ -1,8 +1,8 @@
-class Vehicle {
+class BaseVehicle {
 
     String vehicleNo;
 
-    Vehicle(String vehicleNo) {
+    BaseVehicle(String vehicleNo) {
         this.vehicleNo = vehicleNo;
         System.out.println("Vehicle Constructor Called");
     }
@@ -12,7 +12,7 @@ class Vehicle {
     }
 }
 
-class Car extends Vehicle {
+class Car extends BaseVehicle {
 
     int numberOfDoors;
 
@@ -43,7 +43,6 @@ class ElectricCar extends Car {
 public class Vehicle {
 
     public static void main(String[] args) {
-
         ElectricCar e = new ElectricCar("TN01AB1111", 4, 75);
 
         System.out.println("\nElectric Car Details:");
